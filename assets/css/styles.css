@@ -91,11 +91,42 @@ header nav ul li a {
 
 .work .projects {
   width: 100%;
-  text-align: center;
+  /* text-align: center; */
 }
 
-.work .projects .first-project img {
+.work .projects .first-project {
   width: 600px;
+  height: 400px;
+  background-image: url("../images/hero-bg.jpg");
+  background-size: cover;
+  background-position: 80%;
+  display: block;
+  margin: 10px auto;
+}
+
+.work .projects .first-project h3 {
+  color: #fce138;
+}
+
+.work .projects .other-projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.work .projects .other-projects .project2 {
+  width: 300px;
+  height: 200px;
+  background-image: url("../images/placeholder1.jpg");
+  background-size: cover;
+  margin-right: 5px;
+}
+
+.work .projects .other-projects .project3 {
+  width: 300px;
+  height: 200px;
+  background-image: url("../images/placeholder2.jpg");
+  background-size: cover;
 }
 /*My Work styles end*/
 

@@ -1,9 +1,9 @@
 :root {
-  --primary-color: #05386b;
-  --secondary-color: #379683;
-  --tertiary-color: #8ee4af;
-  --quaternary-color: #8ee4af;
-  --background-color: #5cdb95;
+  --primary-color: #fd151b;
+  --secondary-color: #3a2e39;
+  --tertiary-color: #349324;
+  --quaternary-color: #437f97;
+  --background-color: #f2f5de;
 }
 
 * {
@@ -20,12 +20,12 @@ body {
 /* Heading styles start */
 header {
   padding: 25px 35px;
-  background-color: var(--background-color);
+  background-color: var(--secondary-color);
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
-  color: var(--primary-color);
+  color: white;
 }
 
 header h1 {
@@ -46,21 +46,79 @@ header nav ul li {
 
 header nav ul li a {
   text-decoration: none;
-  color: var(--primary-color);
+  color: white;
 }
 
 /*Heading styles end */
 
 /* About section styles start */
 .about {
-  /* width: 1000px; */
+  margin: auto;
+  width: 600px;
+  padding: 10px;
+}
+
+.about h2 {
+  text-align: center;
+  margin: 20px;
 }
 
 .bio {
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bio p {
+  margin-left: 20px;
 }
 
 .bio img {
-  width: 10%;
+  width: 20%;
+  border-radius: 5%;
+  width: 300px;
 }
 /* About section styles end */
+
+/* My Work styles start */
+.work {
+  margin: 20px;
+}
+.work h2 {
+  text-align: center;
+  margin: 20px;
+}
+
+.work .projects {
+  width: 100%;
+  text-align: center;
+}
+
+.work .projects .first-project img {
+  width: 600px;
+}
+/*My Work styles end*/
+
+/*Contact styles start*/
+.contact {
+  background-color: var(--secondary-color);
+  padding: 25px 35px;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contact ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contact ul li {
+  margin: 10px;
+  list-style: none;
+}
+
+.contact ul li a {
+  text-decoration: none;
+  color: var(--primary-color);
+}

@@ -192,11 +192,43 @@ header nav ul li a {
 
 /* Contact section end */
 
+/* Media Query for tablets and smaller */
+@media screen and (max-width: 768px) {
+  h2 {
+    font-size: 35px;
+  }
+
+  header ul li {
+    font-size: 25px;
+  }
+
+  .contact {
+    justify-content: center;
+  }
+
+  .contact h2 {
+    margin: auto;
+  }
+
+  .about .bio {
+    font-size: large;
+  }
+  .contact ul {
+    display: block;
+    margin: auto;
+    font-size: 20px;
+  }
+}
+
 /* Media Query for Mobile phones and smaller */
 @media screen and (max-width: 375px) {
   header {
     justify-content: center;
     width: 100%;
+  }
+
+  header ul li {
+    font-size: 20px;
   }
 
   .about {

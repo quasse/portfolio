@@ -24,6 +24,10 @@ a:active {
   text-decoration: none;
 }
 
+h2 {
+  font-size: 30px;
+}
+
 /* Heading styles start */
 header {
   padding: 25px 35px;
@@ -111,6 +115,7 @@ header nav ul li a {
   object-fit: cover;
   z-index: 0;
   position: absolute;
+  border-radius: 5%;
 }
 
 .work .projects .first-project a h3 {
@@ -134,12 +139,23 @@ header nav ul li a {
   justify-content: center;
 }
 
+.work .projects .other-projects h3 {
+  color: var(--background-color);
+  font-size: 25px;
+  padding: 5px;
+  width: 150px;
+  background-color: var(--quaternary-color);
+  position: relative;
+  top: 100px;
+}
+
 .work .projects .other-projects .project2 {
   width: 300px;
   height: 200px;
   background-image: url("../images/placeholder1.jpg");
   background-size: cover;
   margin-right: 5px;
+  border-radius: 5%;
 }
 
 .work .projects .other-projects .project3 {
@@ -147,6 +163,7 @@ header nav ul li a {
   height: 200px;
   background-image: url("../images/placeholder2.jpg");
   background-size: cover;
+  border-radius: 5%;
 }
 /*My Work styles end*/
 

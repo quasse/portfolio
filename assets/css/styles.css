@@ -14,7 +14,7 @@
 
 body {
   background-color: var(--background-color);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Courier New", Courier, monospace;
 }
 
 a:hover,
@@ -129,7 +129,9 @@ header nav ul li a {
   z-index: 1;
 }
 
-.work .projects .first-project:hover {
+.work .projects .first-project:hover,
+.work .projects .other-projects .project2:hover,
+.work .projects .other-projects .project3:hover {
   opacity: 0.5;
 }
 

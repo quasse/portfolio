@@ -13,6 +13,10 @@ To build a website from scratch showing off personal work
 
 https://quasse.github.io/portfolio/
 
+## Screenshot
+
+![Working web page](assets/images/screenshot.png)
+
 ## Contribution
 
 Made by Sam Morgen

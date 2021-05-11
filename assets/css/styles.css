@@ -12,16 +12,10 @@
   padding: 0;
 }
 
-body {
-  font-family: "Courier New", Courier, monospace;
-}
-
 /* Header styles start */
 header img {
   display: block;
   margin: 10px auto;
-  border-bottom: 1px solid black;
-  border-top: 1px solid black;
 }
 
 header nav ul {
@@ -30,10 +24,47 @@ header nav ul {
   justify-content: center;
   align-items: center;
   list-style: none;
+  font-size: 25px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  width: 400px;
+  margin: 10px auto;
 }
 
 header nav ul li {
   margin: 10px;
 }
-
 /* Header styles end */
+
+/* Content section start */
+.content {
+  display: flex;
+  justify-content: flex-start;
+}
+
+/* About me section start */
+.about {
+  width: 70%;
+  border: 1px solid black;
+}
+
+.about h2 {
+  font-size: 35px;
+  margin: 5px;
+}
+
+.bio {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.bio img {
+  width: 50%;
+  margin: 5px;
+}
+
+/* work section start */
+
+.work {
+  width: 25%;
+}

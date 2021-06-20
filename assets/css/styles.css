@@ -141,6 +141,15 @@ header nav ul li a {
   justify-content: center;
 }
 
+.work .projects .other-projects img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  z-index: 0;
+  position: absolute;
+  border-radius: 5%;
+}
+
 .work .projects .other-projects h3 {
   color: var(--background-color);
   font-size: 25px;
@@ -154,7 +163,6 @@ header nav ul li a {
 .work .projects .other-projects .project2 {
   width: 300px;
   height: 200px;
-  background-image: url("../images/placeholder1.jpg");
   background-size: cover;
   margin-right: 5px;
   border-radius: 5%;
